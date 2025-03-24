@@ -1,0 +1,5 @@
+body { font-family: sans-serif; padding: 20px; }
+form input, form button { display: block; margin-bottom: 10px; padding: 8px; }
+form button { background: #007BFF; color: white; border: none; cursor: pointer; }
+div { margin-top: 20px; padding: 10px; border: 1px solid #ccc; }
+img { max-width: 100px; }

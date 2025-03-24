@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Inventario de Piezas</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Inventario de Piezas</h1>
+  <form id="form">
+    <input type="text" id="nombre" placeholder="Nombre" required />
+    <input type="text" id="proveedor" placeholder="Proveedor" required />
+    <input type="number" id="precio" placeholder="Precio" required />
+    <input type="text" id="vida_util" placeholder="Vida útil" required />
+    <input type="date" id="mantenimiento_fecha" required />
+    <input type="text" id="codigo" placeholder="Código de barra" required />
+    <input type="text" id="foto" placeholder="URL de la foto" />
+    <button type="submit">Agregar pieza</button>
+  </form>
+  <div id="piezas"></div>
+  <script src="script.js"></script>
+</body>
+</html>
